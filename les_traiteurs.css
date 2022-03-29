@@ -1,0 +1,142 @@
+@import "font.css";
+@import "navbar.css";
+
+html
+{
+	margin: 7px 7px 0 7px;
+}
+
+#logo
+{
+	display: flex;
+}
+
+#banner h1
+{
+	margin-left: 10px; 
+	font-size: 43px;
+	font-family: Redressed;	
+	margin-top: 10px;
+}
+
+body
+{
+	background-color: #372C2E !important;
+}
+
+.container
+{
+	margin-top: 4em;
+	padding-right: 20px;
+	border-radius: 0.2em;
+}
+
+h1
+{
+	text-align: left;
+	padding-top: 20px;
+}
+
+h5 .btn
+{
+	text-decoration: none;
+	color: white;
+	font-family: CabinBold;
+	font-size: 26px;
+}
+
+h5 .btn:hover
+{
+	text-decoration: none;
+	background: white;
+	color: black;
+}
+
+h5 .btn:focus
+{
+	text-decoration: none;
+}
+
+.Somme, .Aisne, .Oise
+{
+	margin-top: 2em;
+	justify-content: center;
+	padding-left: 2em;
+}
+
+.col-sm-6
+{
+	padding-bottom: 1em;
+}
+
+.card
+{
+	box-shadow: 1px 2px 5px #261109;
+}
+
+.card-body
+{
+	text-align: center;
+}
+
+.Somme
+{
+	display: flex;
+}
+
+.Aisne
+{
+	display: flex;
+}
+
+.Oise
+{
+	display: flex;
+}
+
+ul .list-group-item
+{
+	background: #563727;
+}
+
+.list-group-item
+{
+	color: white;
+	font-family: CabinClassic;
+}
+
+.container h1
+{
+	text-align: center;
+}
+
+@media screen and (max-width: 1200px){
+    .Somme, .Aisne, .Oise{
+		display: flex;
+		flex-direction: column;
+		padding-left: 25%;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.Somme, .Aisne, .Oise{
+		padding-left: 15%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.Somme, .Aisne, .Oise{
+		padding-left: 1em;
+	}
+}
+
+section
+{
+	margin-top: 20px;
+    text-align: center;
+}
+
+.copyrights
+{
+	margin-top: 10em;
+}

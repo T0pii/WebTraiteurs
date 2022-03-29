@@ -1,0 +1,58 @@
+@import "navbar.css";
+@import "font.css";
+
+html
+{
+	margin: 7px 7px 0 7px;
+}
+
+#logo
+{
+	display: flex;
+}
+
+#banner h1
+{ 
+	font-size: 43px;
+	font-family: Redressed;
+	margin-left: 10px; 
+	margin-top: 30px;
+}
+
+body
+{
+	background-color: #372C2E;
+	margin: 0;
+}
+
+form
+{
+	color: white;
+	background-color: #563727;
+    border-radius: 0.4em;
+	padding: 20px 20px 20px 20px;
+	box-shadow: 2px 6px #261109;
+	font-family: "CabinClassic";
+	font-size: 20px;
+}
+
+form .btn 
+{
+	background:#8c5620;
+	border: none;
+}
+
+form .btn:hover
+{
+	background: #372C2E;
+}
+
+section
+{	
+	margin-top: 50px;
+}
+
+.copyrights
+{
+	margin-top: 10em;
+}

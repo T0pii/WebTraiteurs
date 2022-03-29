@@ -1,0 +1,44 @@
+@import "font.css";
+
+.copyrights, .white-txt
+{
+    font-family: "CabinBold";
+}
+
+footer.container-fluid.text-center.foot
+{
+    background: #45383a ;
+}
+
+.dark-line
+{
+    border-top: 1px solid #181717;
+
+}
+
+.white-txt
+{
+    color: #FFF;
+}
+
+
+a.link
+{
+    color:  #FFF;
+    border: 1px  #563727;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a.link:hover
+{
+    color: #FFF;
+    background: #4b4142;
+    text-decoration: none;
+
+}
+
+.footimg
+{
+    width: 5rem;
+}

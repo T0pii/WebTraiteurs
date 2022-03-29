@@ -1,0 +1,47 @@
+@import "font.css";
+@import "navbar.css"; 
+
+html
+{
+	margin: 7px 7px 0 7px;
+}
+
+body
+{
+	background-color: #372C2E !important;
+}
+
+#logo
+{
+	display: flex;
+}
+
+#banner h1
+{ 
+	font-size: 43px;
+	font-family: Redressed;
+	margin-left: 10px; 
+	margin-top: 30px;
+}
+
+#carte-picardie {
+	max-width: 1000;
+	max-height: 800px;
+}
+
+section
+{
+	margin-top: 20px;
+    text-align: center;
+}
+
+h1
+{
+	font-size: 17px;
+	color: white;
+}
+
+.copyrights
+{
+	margin-top: 8.5em;
+}

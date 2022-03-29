@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Inscription</title> 
+        <link rel="icon" href="IMAGE\logo.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="footer.css"/>
+        <link rel="stylesheet" href="inscription.css"/>
+    </head>
+
+    <body>
+        <div id="bloc_page">
+    		<header>
+    			<div id="titre_principal">
+    				<div id="logo">
+    					<img src="IMAGE\logo.png" alt="logo des traiteurs de Picardie"> <!-- Le logo n'est pas le bon, c'est juste pour l'exemple -->
+                        <div id="banner">
+                            <h1>Les Traiteurs De Picardie</h1>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="topnav" id="myTopnav">
+                    <a href="accueil.html" class="active">ACCUEIL</a>
+                    <a href="les_traiteurs.html">LES TRAITEURS</a>
+                    <a href="about.html">À PROPOS</a>
+                    <a href="inscription.html">INSCRIPTION</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </header>
+            
+            <section>
+                <div class="container">
+                    <form>
+                        <div class="form-row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="Surname">Nom</label>
+                                    <input type="text" type="text" name="surname" id="surname" placeholder="Doe" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="Name">Prenom</label>
+                                    <input type="text" type="text" name="name" id="name" placeholder="John" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="form-group mb-4">
+                            <label for="Mail">Adresse e-mail</label>
+                            <input type="email" id="mail" placeholder="john.doe@gmail.com" class="form-control">
+                        </div>
+        
+                        <div class="form-check mb-4">
+                            <input class="form-check-input" type="checkbox" value="" id="checkActus">
+                            <label class="form-check-label" for="checkActus">Recevoir les dernières actualités</label>
+                        </div>
+        
+                        <div class="button" style="text-align: center; ">
+                            <button type="submit" class="btn btn-primary">S'enregistrer</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <footer class="container-fluid text-center foot">
+                <div class="copyrights">
+                    <p class="white-txt">Les Traiteurs &copy; 2021
+                        <br><br>
+                        <img class="footerimg" src="IMAGE\logo.png" alt="Logo">
+                    </p>
+                    <hr class="dark-line">
+                    <a class="link" href="#">Nous contacter</a>&nbsp
+                    <a class="link" href="#">Politique de confidentialité</a>&nbsp
+                    <a class="link" href="#">Termes et Conditions</a>
+                    <br><br>
+                    <p class="white-txt small">
+                        Merci d'avoir consulté notre site !
+                    </p>
+                </div>
+            </footer>
+
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                    x.className += " responsive";
+                    } else {
+                    x.className = "topnav";
+                    }
+                }
+            </script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        </div>
+    </body>
+</html>

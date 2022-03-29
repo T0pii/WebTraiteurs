@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="IMAGE\logo.png">
+    <link rel="stylesheet" href="les_traiteurs.css" /> 
+    <link rel="stylesheet" href="footer.css" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- La page css correspondant à la page d'accueil html -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Les traiteurs</title> 
+  </head>
+
+  <body>
+    <div id="bloc_page">
+      <header>
+        <div id="titre_principal">
+          <div id="logo">
+            <img src="IMAGE\logo.png" alt="logo des traiteurs de Picardie"> <!-- Le logo n'est pas le bon, c'est juste pour l'exemple -->
+            <div id="banner">
+              <h1>Les Traiteurs De Picardie</h1>
+            </div>
+          </div>
+        </div>
+        <div class="topnav" id="myTopnav">
+          <a href="accueil.html" class="active">ACCUEIL</a>
+          <a href="les_traiteurs.html">LES TRAITEURS</a>
+          <a href="about.html">À PROPOS</a>
+          <a href="inscription.html">INSCRIPTION</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </header> 
+      <div class="container">
+        <div id="accordion">
+          <div class="card" style="background: #563727;">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  SOMME
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <div class="Somme">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="card" style="width: 30em; background-color: #4E2D1C;">
+                        <img class="card-img-top" src="IMAGE\traiteur1.jpg">
+                        <div class="card-body">
+                          <h5 class="card-title">Michel Miguel</h5>
+                          <p class="card-text">Alliant qualité de service et générosité, Michel Miguel vous propose une grande variété de plats traditionnels tels que le Pavé Picard, la tarte à l'pronée et la blanquette de veau à des prix très abordables.</p>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item">tel : 07 54 00 56 12</li>
+                            <li class="list-group-item">mail : michelmiguel@contact.fr</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="card" style="width: 30em; background-color: #4E2D1C;">
+                      <img class="card-img-top" src="IMAGE\traiteur2.jpg">
+                      <div class="card-body">
+                        <h5 class="card-title">Anthony Martinez</h5>
+                        <p class="card-text">Anthony Martinez est un traiteur basé à Laon qui propose des plats savoureux qui vous feront plaisir : paella, couscous, tartiflette, choucroute. Idéal pour les repas de famille.</p>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">tel : 06 45 23 94 18</li>
+                          <li class="list-group-item">mail : anthonymartinez@contact.fr</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background: #563727;">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  AISNE
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                <div class="Aisne">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="card" style="width: 30em; background-color: #4E2D1C;">
+                        <img class="card-img-top" src="IMAGE\traiteur3.jpg">
+                        <div class="card-body">
+                          <h5 class="card-title">Xavier Dublin</h5>
+                          <p class="card-text">Xavier Dublin vous propose des recettes originales et colorées, composées de produits régionaux frais. Il a aussi imaginé des menus variés, équilibrés et savoureux qui vous feront tout autant plaisir.</p>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item">tel 06 54 74 54 15</li>
+                            <li class="list-group-item">mail : xavierdublin@contact.fr</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="card" style="width: 30em; background-color: #4E2D1C;">
+                      <img class="card-img-top" src="IMAGE\traiteur4.jpg">
+                      <div class="card-body">
+                        <h5 class="card-title">Dimitri Ravier</h5>
+                        <p class="card-text">Dimitri Ravier est un ancien chef cuisinier qui vous propose des menus froids et chauds qui conviendront à tous les goûts. Ses principales spécialités : les tuiles de Beauvais, le gâteau battu.</p>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">tel : 07 84 62 74 59</li>
+                          <li class="list-group-item">mail : dimitriravier@contact.fr</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="background: #563727;">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  OISE
+                </button>
+              </h5>
+            </div>
+                
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                <div class="Oise">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="card" style="width: 30em; background-color: #4E2D1C;" > 
+                        <img class="card-img-top" src="IMAGE\traiteur5.jpg">
+                        <div class="card-body">
+                          <h5 class="card-title">Joséphine Lila</h5>
+                          <p class="card-text">Joséphine Lila est un traiteur basé à Amiens spécialisé dans la cuisine traditionnelle proposant diverses services : petits déjeuners, cocktails dînatoires, apéritifs dînatoires, repas assis.</p>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item">tel 07 54 99 87 15 </li>
+                            <li class="list-group-item">mail : josephinelila@contact.fr</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="card" style="width: 30em; background-color: #4E2D1C;">
+                      <img class="card-img-top" src="IMAGE\traiteur6.jpg">
+                      <div class="card-body">
+                        <h5 class="card-title">Pascal Girard</h5>
+                        <p class="card-text">En format cocktail, buffet ou repas assiette, Pascal Girard vous composera un service sur mesure. Pour les lendemains de fêtes, il vous propose également une formule « brunch ».</p>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">tel : 07 54 16 24 67</li>
+                          <li class="list-group-item">mail : pascalgirard@contact.fr</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="container-fluid text-center foot">
+        <div class="copyrights">
+            <p class="white-txt">Les Traiteurs &copy; 2021
+                <br><br>
+                <img class="footerimg" src="IMAGE\logo.png" alt="Logo">
+            </p>
+            <hr class="dark-line">
+            <a class="link" href="#">Nous contacter</a>&nbsp
+            <a class="link" href="#">Politique de confidentialité</a>&nbsp
+            <a class="link" href="#">Termes et Conditions</a>
+            <br><br>
+            <p class="white-txt small">
+                Merci d'avoir consulté notre site !
+            </p>
+        </div>
+      </footer>
+
+      <script>
+        function myFunction() 
+        {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") 
+          {
+            x.className += " responsive";
+          } else 
+          {
+            x.className = "topnav";
+          }
+        }
+      </script>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </div>
+  </body>
+</html>

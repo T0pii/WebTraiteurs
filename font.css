@@ -1,0 +1,35 @@
+
+@font-face
+{
+	font-family: 'CabinClassic';
+	src: url('fonts/CabinCondensed-Regular.ttf') format('truetype');
+}
+
+@font-face
+{
+	font-family: 'CabinBold';
+	src: url('fonts/CabinCondensed-Bold.ttf') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'Redressed';
+	src: url('fonts/Redressed-Regular.ttf') format('truetype');
+}
+
+
+h1, h2, h3 {
+	font-family: 'Redressed';
+}
+
+p {
+	font-family: 'CabinClassic';
+}
+
+a {
+	font-family: 'CabinBold';
+}
+
+* {
+	color: white;
+}
